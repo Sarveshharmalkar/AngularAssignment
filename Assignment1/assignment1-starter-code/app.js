@@ -16,16 +16,16 @@
    };
    function doing(fullstring){
        let stringtosplit=fullstring.split(",");
-        // return stringtosplit;
-           if(stringtosplit.length==0){
-               return "Please enter data first";
-           }
-           else if(stringtosplit.length<=3){
-               return "Enjoy!";
-           }
-           else{
-               return "Too much!";
-           }
+        //  return fullstring.length;
+            if(fullstring.length==0){
+                return "Please enter data first";
+            }
+            else if(stringtosplit.length<=3){
+                return "Enjoy!";
+            }
+            else{
+                return "Too much!";
+            }
 
     //   let k=0;
     //   for(let i=0;i<fullstring.length;i=i+1){
